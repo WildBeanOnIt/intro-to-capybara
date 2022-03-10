@@ -7,4 +7,12 @@ class Application < Sinatra::Base
   post '/greet' do
     erb :greet
   end
+
+  post '/year' do
+    erb :year
+  end
+
+  post '/nickname' do
+    erb :nickname
+  end
 end
